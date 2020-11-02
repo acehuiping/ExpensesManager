@@ -112,7 +112,6 @@ public class IncomeFragment extends Fragment {
                 .setQuery(mIncomeDatabase, Data.class)
                 .build();
 
-
         adapter = new FirebaseRecyclerAdapter<Data, MyViewHolder>(options) {
 
             public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
